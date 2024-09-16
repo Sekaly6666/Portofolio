@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Compétences</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="icon" type="image/png" href="../IMG/competence.png">
+</head>
+<body>
+    
+    <header>
+
+        <nav>
+            <img src="../IMG/seka.jpg" alt="Logo seka" width="90"/>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <div class="nav-links">
+                <a href="index.html">Acceuil</a>
+                <a href="projects.html">Projects</a>
+                <a href="skills.html">Compétences</a>
+                <a href="cv.html">Mon cv</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+        
+    </header>
+
+    <header class="Titre">
+        <h1>Mes Compétences</h1>
+    </header>
+
+    <section class="skills">
+
+        <h2>Développement Web</h2>
+        <ul>
+            <li>- WORD</li>
+            <li>- HTML & CSS</li>
+            <li>- JavaScript</li>
+            <li>- Php Mysql</li>
+            <li>- Python(Django & Flask) </li>
+            
+        </ul>
+
+        <h2>Gestion de Projet</h2>
+        <ul>
+            <li>- Communication</li>
+            <li>- Gestion du temps</li>
+            <li>- Travail en équipe</li>
+        </ul>
+
+    </section>
+
+    <footer>
+        <img src="../IMG/seka.jpg" alt="Logo seka" width="90"/>
+        <div>
+            <a target="_blank" href="https://wa.me/+2250566668039" class="lien-icone">
+                <img src="../IMG/WhatsApp-Logo.png" alt="Logo whatsapp" width="60" />
+            </a>
+            <a target="_blank" href="https://t.me/+2250566668039" class="lien-icone">
+                <img src="../IMG/telegram.jpg" alt="Logo Telegram" width="60"/>
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector("nav").classList.toggle("nav-active");
+        }
+    </script>
+</body>
+</html>

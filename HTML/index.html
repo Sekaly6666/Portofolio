@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="icon" type="image/jpg" href="../IMG/portfolio.jpg">
+</head>
+<body>
+    <header>
+
+        <nav>
+            <img src="../IMG/seka.jpg" alt="Logo seka" width="90"/>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <div class="nav-links">
+                <a href="index.html">Acceuil</a>
+                <a href="projects.html">Projects</a>
+                <a href="skills.html">Compétences</a>
+                <a href="cv.html">Mon cv</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+        
+    </header>
+
+    <main>
+
+        <section class="Seka">
+            <h1>Bienvenue sur mon Portfolio</h1>
+            <p>Je m'appelle <em>Bamba Sékou Amara</em>, Et je suis un étudiant <br>
+                passionné par l'Informatiqoque et Science Numérique <span>(I.S.N)</span>,<br>
+                spécialiser en Développeur d’Application et e-Service <span>(D.A.S)</span>
+            </p>
+            <a href="projects.html" class="btn">Voir mes projets</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <img src="../IMG/seka.jpg" alt="Logo seka" width="90"/>
+        <div>
+            <a target="_blank" href="https://wa.me/+2250566668039" class="lien-icone">
+                <img src="../IMG/WhatsApp-Logo.png" alt="Logo whatsapp" width="60" />
+            </a>
+            <a target="_blank" href="https://t.me/+2250566668039" class="lien-icone">
+                <img src="../IMG/telegram.jpg" alt="Logo Telegram" width="60"/>
+            </a>
+        </div>
+    </footer>
+    
+    <script>
+        function toggleMenu() {
+            document.querySelector("nav").classList.toggle("nav-active");
+        }
+    </script>
+        
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="icon" type="image/webp" href="../IMG/cv.webp">
+</head>
+<body>
+
+    <header>
+
+        <nav>
+            <img src="../IMG/seka.jpg" alt="Logo seka" width="90"/>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <div class="nav-links">
+                <a href="index.html">Acceuil</a>
+                <a href="projects.html">Projects</a>
+                <a href="skills.html">Compétences</a>
+                <a href="cv.html">Mon cv</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+        
+    </header>
+
+    <header class="Titre">
+        <h1>Mon CV</h1>
+        <a href="../PDF/CV n°1.pdf" class="btn">Télécharger mon CV</a>
+    </header>
+
+    <section class="cv">
+        <h2>A propos</h2>
+        <p> L’informatique est l’une de mes <br>
+            passions depuis l’enfance et j’aime bien me <br>
+            perfectionnée en <span>(D.A.S)</span> c’est-à-dire <br>
+            <span>D</span>éveloppeur d’<span>A</span>pplication et e-<span>S</span>ervice, <br>
+            Mes deux techniques de surface <span>WORD</span> et <br>
+            <span>HTML CSS etc...</span>, j’utilise depuis plus de 6mois, je <br>
+            suis aussi passion des réseaux <br>
+            informatiques…</p>
+
+        <h2>Education</h2>
+        <p>
+           - 2018 -> 2019 -> BEPC <br>
+           - 2021 -> 2022 -> BAC <br>
+           - 2022 -> 2023 -> LICENCE 1 <br>
+           - 2023 -> 2024 -> LICENCE 2</p>
+
+        <h2>Expérience</h2>
+        <p>- Programmation site web<br>
+           - Certificat & Logo design <br>
+           - Calligraphe & Art</p>
+    </section>
+
+    
+    <footer>
+        <img src="../IMG/seka.jpg" alt="Logo seka" width="90"/>
+        <div>
+            <a target="_blank" href="https://wa.me/+2250566668039" class="lien-icone">
+                <img src="../IMG/WhatsApp-Logo.png" alt="Logo whatsapp" width="60" />
+            </a>
+            <a target="_blank" href="https://t.me/+2250566668039" class="lien-icone">
+                <img src="../IMG/telegram.jpg" alt="Logo Telegram" width="60"/>
+            </a>
+        </div>
+    </footer>
+    
+    <script>
+        function toggleMenu() {
+            document.querySelector("nav").classList.toggle("nav-active");
+        }
+    </script>
+    
+</body>
+</html>

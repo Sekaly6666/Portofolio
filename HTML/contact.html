@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-moi</title>
+    <link rel="stylesheet" href="../CSS/style.css"></head>
+    <link rel="icon" type="image/png" href="../IMG/contact.png">
+<body>
+
+    <header>
+
+        <nav>
+            <img src="../IMG/seka.jpg" alt="Logo seka" width="90"/>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <div class="nav-links">
+                <a href="index.html">Acceuil</a>
+                <a href="projects.html">Projects</a>
+                <a href="skills.html">Compétences</a>
+                <a href="cv.html">Mon cv</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+        
+    </header>
+
+    <header class="Titre">
+        <h1>Contactez-moi</h1>
+    </header>
+
+    <section class="contact">
+
+        <form action="mailto:sekouamarabamba@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="btn">Envoyer</button>
+        </form>
+
+    </section>
+
+    
+    <footer>
+        <img src="../IMG/seka.jpg" alt="Logo seka" width="90"/>
+        <div>
+            <a target="_blank" href="https://wa.me/+2250566668039" class="lien-icone">
+                <img src="../IMG/WhatsApp-Logo.png" alt="Logo whatsapp" width="60" />
+            </a>
+            <a target="_blank" href="https://t.me/+2250566668039" class="lien-icone">
+                <img src="../IMG/telegram.jpg" alt="Logo Telegram" width="60"/>
+            </a>
+        </div>
+    </footer>
+    
+    <script>
+        function toggleMenu() {
+            document.querySelector("nav").classList.toggle("nav-active");
+        }
+    </script>
+    
+</body>
+</html>

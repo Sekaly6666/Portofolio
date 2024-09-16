@@ -1,0 +1,390 @@
+/*Acceuil*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.Seka {
+    height: 360px;
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+    background-color: #5ea0e7;
+    color: #fff;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.Seka span{
+    color: blue;
+}
+
+em{
+    color: blue;
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    background: linear-gradient(blue, rgb(140, 204, 236));
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+    transition: .3s ease;
+    font-size: 20px;
+    font-weight: 600;
+  
+}
+
+
+header,
+footer {
+  background-color: white;
+  padding: 20px 50px;
+  
+}
+
+nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 20;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 4%;
+        height: 50px;
+        box-shadow: 0 0 10px 0 rgba(47, 32, 250, 0.8);
+    }
+
+
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 10px 4%;
+}
+
+nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color:  #4191e7;
+  font-size: 1.3em;
+  text-transform: capitalize;
+  margin: 15px;
+  padding: 8px;
+  font-weight: 500;
+  border-bottom: solid transparent 3px;
+  transition: .3s ease;
+}
+
+nav a:hover{
+    border-bottom: solid #0050d5 2px;
+    color: #0050d5;
+}
+
+
+
+/*Projets*/
+
+
+.projects {
+    height: auto;
+    width: 97%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #5ea0e7;
+}
+
+.project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.Titre h1 {
+    font-size: 2.3em;
+    color: #5ea0e7;
+}
+
+.project h2 {
+    font-size: 1.5em;
+}
+
+.project p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.project span{
+    color: blue;
+}
+
+.project a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(#02529c, #acaeed);
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 10px 30px;
+}
+
+.project a:hover {
+    background-color: #0056b3;
+}
+
+/*Skills*/
+.skills {
+    height: 365px;
+    padding: 20px;
+    background-color: #5ea0e7;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.skills h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+/*Cv*/
+.cv {
+    padding: 20px;
+    background-color: #5ea0e7;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.cv h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.cv span{
+    color: blue;
+}
+.cv p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+/*Contact*/
+.contact {
+    height: 365px;
+    padding: 20px;
+    padding: 20px;
+    background-color: #5ea0e7;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.contact input,
+.contact textarea {
+    font-size: 1em;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .Seka {
+        padding: 50px 0;
+        height: 448px;
+    }
+
+    .Titre h1{
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .projects {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 91.8%;
+    
+    }
+
+    .project {
+        width: 80%;
+        margin: 10px 0;
+    }
+ 
+    .contact, .skills{
+        height: 374px;
+    }
+
+    header,
+    footer {
+        padding: 10px 20px;
+    }
+
+    nav {
+        padding: 10px 2%;
+    }
+
+    nav a {
+        font-size: 1.1em;
+        margin-left: 15px;
+    }
+
+    .skills,
+    .cv,
+    .contact {
+        margin: 10px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .btn {
+        padding: 10px 15px;
+        font-size: 1em;
+    }
+
+    nav a {
+        font-size: 1em;
+        margin-left: 10px;
+    }
+
+    .projects,
+    .skills,
+    .cv,
+    .contact {
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .project {
+        width: 85%;
+    }
+
+    .contact, .skills{
+        height: 416px;
+    }
+    
+    .Seka {
+        padding: 50px 0;
+        height: 466px;
+    }
+
+    .projects{
+        width: 92%;
+    }
+ 
+}
+
+
+/* Bouton menu hamburger pour le mode responsive */
+.menu-icon {
+    display: none;
+    font-size: 2em;
+    color: #4191e7;
+    cursor: pointer;
+}
+
+/* Nav en mode responsive */
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: rgb(0, 0, 0);
+        width: 50%;
+        text-align: center;
+        margin-top: 300px;
+        border-radius: 5px;
+    }
+
+    .nav-links a {
+        padding: 10px;
+        border-bottom: solid transparent 1px;
+    }
+
+    .nav-links a:hover {
+        border-bottom: solid #0050d5 2px;
+    }
+
+    .nav-active .nav-links {
+        display: flex;
+    }
+}
